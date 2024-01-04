@@ -1,0 +1,109 @@
+.extra{
+    width: 527px;
+    
+}
+.tex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    font-size:30px;
+    border: 1.3px solid rgb(17, 10, 228);
+    margin-top: 10px;
+    border-radius: 3rem;
+    color: rgb(239, 241, 243);
+    background-color: rgb(29, 69, 229);
+}
+.footer-nav-block{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    text-decoration: none;
+    
+}
+.footer-nav-block a{
+    text-decoration: none;
+    color:#666666;
+}
+.sub{
+    color:#666666;
+}
+.header-slim-item{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.boxs{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+}
+.iconst{
+    padding-right: 1rem;
+}
+.lgn{
+    margin-bottom: 92px;
+}
+.f1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.tab-panes{
+    width:527px;
+}
+.acceso{
+    width: 527px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid #e6e6e6;
+}
+.nav-a{
+    margin-right: 4rem;
+}
+.nav-a a{
+    text-decoration: none;
+    color: #666666;
+}
+.nav-a:hover{
+    color: #e100ff;
+}
+.nav-b{
+    margin-left: 4rem;
+}
+.nav-b a{
+    text-decoration: none;
+    color: #666666;
+}
+.nav-b:hover{
+    color: #e100ff;
+}
+.footergeneral{
+    margin-top: 128px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    padding-right: 1rem;
+}
+.boton:hover{
+    background-color: #CFD2CF;
+    color: #ffffff;
+}
+@media only screen and (max-width:600px){
+    .extra{
+        width: 90%;
+    }
+    .tab-panes{
+        width: 90%;
+    }
+    .acceso{
+        width: 90%;
+    }
+}

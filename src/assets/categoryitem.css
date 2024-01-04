@@ -1,0 +1,17 @@
+.price-del{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.price-del span{
+    color: #aaa;
+    font-weight: 700;
+    text-decoration: line-through;
+}
+.banner-category{
+    height: 25em;
+    object-position: center;
+    object-fit: fill;
+}
+.img-list{
+    width: 12em!important;
+}

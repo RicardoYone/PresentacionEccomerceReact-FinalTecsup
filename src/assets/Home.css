@@ -1,0 +1,120 @@
+.image_full {
+    display: block !important;
+}
+
+.image_med {
+    display: none !important;
+}
+
+.image_mobile {
+    display: none !important;
+}
+
+.borderImg img{
+    border-radius: 20px;       
+    max-width: 100%;
+    padding: auto;
+    margin: auto
+}
+.borderImg2 img{
+    border-radius: 20px;       
+    max-width: 100%;
+    margin: 10px;
+    margin: auto
+}
+
+.slick-next:before .slick-prev:before{
+    display: none !important;
+}
+
+.borderTiendas img{
+    width: 98%;    
+}
+
+.iconVent {
+    color: rgba(0, 0, 0, 0.474);
+    transform: scale(0.8);
+}
+
+.iconCard {
+    font-size: 20px;
+    color: gray;
+    -webkit-text-stroke: px rgba(0, 0, 0, 0.238);
+}
+
+.cardProd:hover {
+    box-shadow: 0px 0px 7px 0px #81E291;
+}
+
+.iconCard:hover {
+    cursor: pointer;    
+    
+    text-shadow: 0px 0px 7px #2C3E50;
+    
+}
+
+.footerCard{
+    background-color: white!important;
+    height: 20px!important;
+}
+
+.imgGallery{
+    object-fit: cover;
+}
+
+.carousel .thumbs {
+    display: flex;
+    justify-content: center;
+}
+.carousel .slide img {
+    width: 55%!important;
+}
+
+.carousel-status {
+    display: none!important;
+}
+
+.control-dots {
+    display: none!important;
+}
+
+@media (max-width: 1000px) and (min-width: 640px) {
+    .image_full {
+        display: none !important;
+    }
+
+    .image_med {
+        display: block !important;
+    }
+
+    .image_mobile {
+        display: none !important;
+    }
+
+    .textVent p {
+        font-size: 80%;
+    }
+  
+}
+
+@media (max-width: 640px) {
+    .image_full {
+        display: none !important;
+    }
+
+    .image_med {
+        display: none !important;
+    }
+
+    .image_mobile {
+        display: block !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .borderVent {
+        border-right: none!important;
+        border-bottom: 2px solid #DEDDDC;
+    }
+}

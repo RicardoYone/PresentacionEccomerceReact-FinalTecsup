@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .Tema {
+    font-size: 2.5rem;
+    color: white;
+    background-color: #470082;
+    font-weight: 300;
+    padding: 30px;
+  }
+  
+  .Cajas {
+    width: 66%;
+  }
+  
+  .Productos {
+    width: 33%;
+  }
+  
+  .Padre {
+    margin-bottom: 15px;
+  }
+  .Padre i {
+    margin: 5px;
+  }
+  .Padre div {
+    margin-bottom: 0rem !important;
+    padding: 1rem;
+  }
+  .Padre h5 {
+    margin-bottom: 0 !important;
+  }
+  .Padre input {
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  .Arriba {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+  
+  .Abajo {
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+    border: 1px solid rgb(218, 218, 218);
+  }
+  
+  .Dos input {
+    width: 48%;
+  }
+  
+  .Tres input {
+    width: 30%;
+  }
+  
+  .Pago button {
+    font-size: 18px;
+    width: 100%;
+    font-weight: 600;
+    background-color: #31D2F2;
+  }
+  
+  .Color1 {
+    width: 100%;
+    font-weight: 600;
+    background-color: #31D2F2 !important;
+    border: 1px solid #31D2F2;
+  }
+  
+  .Productos {
+    margin: 0 0.5rem;
+  }
+  
+  .Carro {
+    border-bottom: 1px solid #31D2F2;
+  }
+  
+  .Carro2 div {
+    padding: 0 !important;
+  }
+  
+  .Tarjeta div label {
+    padding: 0 10px;
+  }
+  .Tarjeta input {
+    width: inherit;
+  }
+  
+  @media (max-width: 1000px) {
+    .Total {
+      flex-direction: column;
+    }
+    .Total .Cajas {
+      width: 100%;
+    }
+    .Total .Productos {
+      width: 100%;
+    }
+  }
+  @media (max-width: 800px) {
+    .Tarjeta {
+      flex-direction: column;
+    }
+    .Tarjeta div {
+      justify-content: flex-start !important;
+    }
+  }

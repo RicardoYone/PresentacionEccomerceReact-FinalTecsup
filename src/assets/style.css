@@ -1,0 +1,236 @@
+/*NavBar*/
+
+.barra {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.bg-verde{
+  background: #3a9a70;
+}
+.text-verde{
+  color: #3a9a70;
+}
+.carro {
+  transform: translate(50%, -50%);
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 100%;
+  right: 0%;
+
+}
+
+.login {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.logo-nav {
+  height: 40px;
+}
+.dropdown-toggle::after {
+  display: none!important;
+}
+.z-index-100 {
+  z-index: 100;
+}
+
+.navigation-menu {
+  /* metodo calc() calcula la altura 
+    100vh es el total de alto de la pantalla y se le resta los 4rem del header para que tener el total de lo que sobra*/
+  height: calc(100vh - 4rem);
+}
+
+.navigation-menu-item {
+  right: 0;
+  display: none;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+li {
+  list-style: none;
+}
+
+/* .navigation-link:hover al pasar el mouse por ese link se mostrara .navigation-submenu */
+.navigation-link:hover .navigation-submenu {
+  display: block !important;
+
+}
+
+.lista-menu:hover {
+  color: white !important;
+  background-color: #3a9a70;
+}
+
+.subcatergoria-menu {
+  color: gray;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.subcatergoria-menu:hover {
+  color: #3a9a70;
+}
+
+.subcategoria {
+  object-fit: cover;
+  object-position: center;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.h-max {
+  height: calc(100vh - 4rem);
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-9 {
+  width: 2.5rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/*FIN Narbar*/
+
+.img-info {
+  width: 100%;
+}
+
+.tamaño {
+  height: 325px;
+}
+.padding-margin{
+  padding: 0;
+  margin: 0;
+}
+
+.card2:hover{
+  transform: scale(1.05);
+  background-color: #dedddc;
+}
+
+.butonCarru {
+  background-color: #f50;
+  border: 1px solid #f50;
+}
+
+.bannerPeque {
+  background-image: linear-gradient(rgb(178, 106, 243) 10%, rgb(255, 91, 45) 100%);
+  height: 197px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.imgCir {
+  background-image: url("https://s3.amazonaws.com/fms-live/b2486e4c-58fe-11ec-9123-2a0b5adc9aa9.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-left: 10%;
+}
+
+.proimg {
+  margin-top: 13%;
+  margin-left: 13%;
+}
+
+.baner2 {
+  width: 100%;
+  height: 100%;
+}
+/* buscador */
+.search{
+  top: 2.4rem;
+}
+.scrol{
+  display: block;
+  max-height: 700px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.slick-next, .slick-arrow{
+  display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100% !important;
+  }
+
+  .tamaño {
+    height: 161px;
+  }
+
+  .proimg {
+    margin-left: 18%;
+    margin-top: 18%;
+    width: 90px;
+  }
+
+  .imgCir {
+    background-size: 150px 150px;
+    margin-top: 10%;
+  }
+
+  .cajasBanner {
+    margin-top: 0 !important;
+    padding-top: 10%;
+  }
+
+  .cajasBanner span {
+    font-size: 16px !important;
+  }
+  .banner2{
+    margin-left: 0 !important;
+    margin-top: 20px;
+  }
+  .imgRes{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .carrouselPrin{
+    height: 230px !important;
+  }
+  .info{
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100% !important;
+  }
+
+  .infoRes {
+    display: none !important;
+  }
+
+}
+@media only screen and (max-width: 978px) {
+  .margen{
+    margin-top: 1em!important;
+  }
+}

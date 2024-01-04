@@ -1,0 +1,51 @@
+.carrusel{
+max-height: 100% !important;
+}
+
+.carrusel img{
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.logo{    
+    border: solid 2px black;
+    border-radius: 50%;
+    padding: 15px;
+    background-color:blanchedalmond;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none!important;
+}
+.carousel-indicators {
+    display: none!important;
+}
+
+.carousel-caption {
+    position: static !important; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(4, 41, 85)!important;
+}
+
+.botonG{
+    border: solid 2px black;
+    padding: 0.5rem;
+    border-radius: 30px;
+    color: black!important;
+    text-decoration: none!important;
+}
+
+.botonG img{
+    height: 30px;
+    padding: 2px;
+    margin: 5px;
+}
+
+@media  screen and (max-width:600px) {
+    .oculto{
+        display: none!important;
+
+    }
+    
+}
+

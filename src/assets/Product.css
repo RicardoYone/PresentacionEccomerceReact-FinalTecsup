@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+.colorfondo {
+  background: rgb(240, 240, 240);
+}
+
+.padre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagenes {
+  width: 60%;
+}
+
+.imagenes-img {
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+}
+
+.text {
+  width: 35%;
+  margin-bottom: 5px;
+}
+
+.text h1 {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  margin-bottom: 5px;
+}
+
+.text .marca {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.text .marca span {
+  color: #666;
+}
+
+.text .marca .reseña {
+  color: #f50;
+  text-decoration: underline;
+}
+
+.text .pago {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.text .pago div {
+  margin-bottom: 5px;
+}
+
+.text .pago .discontinuado {
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.text .pago .discontinuado span {
+  color: #aaa;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.text .pago .tarjeta {
+  color: #ea2840;
+}
+
+.text .pago .tarjeta span {
+  background-position: 0 -245.5px;
+  background-size: 333px 278px;
+  height: 24px;
+  width: 70px;
+  vertical-align: -10%;
+}
+
+.text .pago .promocion {
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.text .envio {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.text .envio h1,
+.text .envio h2 {
+  color: #45a00a;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  padding-left: 40px;
+  padding-top: 2px;
+  position: relative;
+}
+
+.text .envio p {
+  color: #666;
+}
+
+.text .envio p span {
+  color: #45a00a;
+}
+
+.text .envio h2 {
+  color: #666;
+}
+
+.text .envio a {
+  color: #f50;
+}
+
+.text .opciones {
+  margin-bottom: 15px;
+}
+
+.text .opciones h3 {
+  color: #666;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.text .opciones .tamaño {
+  width: 20%;
+}
+
+.text .opciones .caja {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.text .opciones .boton {
+  width: 90%;
+  font-size: 1.3rem;
+  height: 52px;
+  color: #fff;
+  background-color: #f50;
+  border-color: #f50;
+  font-weight: 400;
+  text-transform: initial;
+  padding: 0.5rem 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.text .cmr a {
+  text-decoration: none !important;
+  color: #399624 !important;
+  float: left;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.text .visto p {
+  font-size: 14px;
+  color: #666;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 3px 3px 3px 8px;
+  text-align: left;
+}
+
+.text .visto p span {
+  font-weight: 600;
+  color: #666 !important;
+}
+
+.text .envioss h1 {
+  font-size: 1.15rem;
+  line-height: 1.6rem;
+  font-weight: 700;
+  padding-bottom: 8px;
+  color: black !important;
+  margin: 0 5px;
+}
+
+.text .envioss .caja2 {
+  background: #3a9a70;
+  border-radius: 6px;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.8rem;
+  height: 36px;
+  padding: 7px 8px 8px;
+  position: relative;
+  text-align: center;
+  top: 1px;
+  margin: 0 10px;
+}
+
+.text .envioss .nombre {
+  color: #666;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-decoration: underline;
+  margin: 0 10px;
+}
+
+.text .llama {
+  color: #666;
+  font-family: Arial, Roboto, "-apple-system", Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.text .llama div {
+  margin: 15px 0px;
+}
+
+svg {
+  margin: 0 10px;
+}
+
+.opcionesmultiple {
+  width: 60%;
+  position: relative;
+  bottom: 350px;
+}
+
+.opcionesmultiple .titulo {
+  padding: 20px 0;
+  width: 100%;
+  font-size: 1.15rem;
+  line-height: 1.6rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.opcionesmultiple .cuerpo li {
+  margin: 15px 0px;
+  padding-left: 15px;
+}
+
+.opcionesmultiple .fondo {
+  background-color: #F7F7F7;
+}
+
+.opcionesmultiple .cajon {
+  width: 33%;
+}
+
+.opcionesmultiple .cajon li {
+  list-style: none;
+}
+
+.opcionesmultiple .lista {
+  color: #666;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.opcionesmultiple .lista h2 {
+  color: rgb(8, 8, 8);
+}
+
+@media (max-width: 1000px) {
+  .padre {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagenes {
+    width: 100%;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .opcionesmultiple {
+    position: inherit;
+    width: 100%;
+  }
+}
